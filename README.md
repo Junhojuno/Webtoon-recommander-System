@@ -1,5 +1,6 @@
 # Webtoon Recommender System
 --- 
+
 ## About
 : 웹툰의 소개글과 장르를 활용하여 웹툰 추천 시스템을 구현하는 프로젝트입니다.
 
