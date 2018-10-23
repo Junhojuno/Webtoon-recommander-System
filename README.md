@@ -1,5 +1,4 @@
 # Webtoon Recommender System
---- 
 
 ## About
 : 웹툰의 소개글과 장르를 활용하여 웹툰 추천 시스템을 구현하는 프로젝트입니다.
@@ -20,4 +19,3 @@
 ### Modeling
   - 사용자로부터 최근에 본 웹툰명을 Input으로 받는다.
   - 해당 웹툰 정보를 바탕으로 Content-based filterning
---- 
