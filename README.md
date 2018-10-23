@@ -1,12 +1,13 @@
-# Webtoon_recommand_system (웹툰 분석 & 추천시스템)
+# Webtoon Recommender System (웹툰 분석 & 추천시스템)
 --- 
-- 소개 : 웹툰의 데이터를 활용한 사용자 웹툰 추천 시스템을 구현하는 프로젝트입니다.
+## About
+: 웹툰의 소개글과 장르를 활용하여 웹툰 추천 시스템을 구현하는 프로젝트입니다.
 
+### Overview
 |  데이터 수집   | 추천 모델 | 추천 API  | 사용자 UI |
 | ------------- |:-------------:|:---------:|:---------:|
-| Requests, bs4, python 패키지 활용 | 소개글 바탕으로 웹툰간 Similarity 계산 <br> TF-IDF + Cosine Similarity | Most similar를 제공하는 RESTful-API | Most similar한 웹툰을 추천해주는 기능 |
-
-
+| Naver/Daum 웹툰 리스트 크롤링 | 소개글 바탕으로 웹툰간 Similarity 계산 | Most similar를 제공하는 RESTful-API | Most similar한 웹툰을 추천해주는 기능 |
+| Requests, bs4, python 패키지 활용 | TF-IDF + Cosine Similarity <br> python 패키지 활용 | Flask <br> python 패키지 활용 | Bootstrap theme |
 ### 데이터 수집
   - 대상웹툰
     - Naver : 745개
